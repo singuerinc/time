@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 html {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  @apply bg-zinc-900 text-zinc-50 antialiased;
 }
