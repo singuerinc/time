@@ -8,5 +8,5 @@ html {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
-  @apply bg-zinc-900 text-zinc-50 antialiased;
+  @apply bg-neutral-100 text-neutral-50 antialiased dark:bg-neutral-900;
 }
