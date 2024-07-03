@@ -35,7 +35,7 @@ enum Theme {
 function App() {
   useTheme();
 
-  const [theme, setTheme] = useState<Theme>(Theme.orange);
+  const [theme] = useState<Theme>(Theme.orange);
 
   const timer = useTimer();
   const { time } = timer;

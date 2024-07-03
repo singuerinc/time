@@ -52,7 +52,7 @@ export const timerMachine = createMachine<Context, Events>(
 );
 
 export function useTimer() {
-  const [, send, service] = useMachine(timerMachine);
+  const [, , service] = useMachine(timerMachine);
   const time = useSelector(service, (state: State<Context>) => state.context.time);
 
   return {
